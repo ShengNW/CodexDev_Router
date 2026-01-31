@@ -1,0 +1,29 @@
+.
+├── AGENTS.md
+├── API
+│   ├── AGENTS.md
+│   ├── api-v1-mapping.md
+│   ├── notes.md
+│   └── prompt-admin-internal.md
+├── Channel
+│   ├── AGENTS.md
+│   └── Speed
+│       ├── AGENTS.md
+│       └── Qingyun.md
+├── Communicate
+│   ├── AGENTS.md
+│   └── API.md
+├── Money
+│   └── AGENTS.md
+├── PG
+│   └── AGENTS.md
+├── UI
+│   └── AGENTS.md
+├── Up
+│   └── AGENTS.md
+├── Wallet
+│   └── AGENTS.md
+├── notes.md
+└── ru_CoDevDir.txt
+
+10 directories, 17 files
