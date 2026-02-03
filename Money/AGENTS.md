@@ -5,7 +5,7 @@ This file captures the current billing logic and runtime facts discovered so a n
 ## Scope
 - Repo: /root/code/router/router_new
 - Goal: explain current billing/quota logic, where it is implemented, and how logs/usage map to quota.
-- Online instance: https://llm.yeying.pub/ (public reverse proxy to local 3011).
+- Online instance: https://router.yeying.pub/ (public reverse proxy to local 3011).
 - DB: PostgreSQL DSN provided by user (read-only queries already performed).
 
 ## Runtime DB snapshot (PG, read-only)
@@ -153,7 +153,7 @@ Notes:
 - For PG, sequence setup for logs.id is handled in migrateLOGDB.
 
 ## Operational context
-- Public domain: https://llm.yeying.pub/ (reverse proxy to local 3011).
+- Public domain: https://router.yeying.pub/ (reverse proxy to local 3011).
 - SESSION_SECRET set by user (do not change).
 
 ## Prior commands executed (read-only)
@@ -163,4 +163,3 @@ Notes:
 ## Next suggested checks (if needed, still read-only)
 - Optional: sample a few logs rows (anonymize) to verify quota vs token fields.
 - Optional: check if LOG_SQL_DSN is set in runtime environment.
-

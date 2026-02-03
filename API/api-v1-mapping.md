@@ -34,6 +34,13 @@
 | POST | `/api/oauth/wallet/login` | `/api/v1/public/oauth/wallet/login` | `CriticalRateLimit` | `auth.WalletLogin` |
 | POST | `/api/oauth/wallet/bind` | `/api/v1/public/oauth/wallet/bind` | `CriticalRateLimit`, `UserAuth` | `auth.WalletBind` |
 
+### 第三方 OAuth
+| 方法 | 旧路径 | 新路径 | 权限/中间件 | Handler |
+| --- | --- | --- | --- | --- |
+| GET | `/api/oauth/state` | `/api/v1/public/oauth/state` | `CriticalRateLimit` | `auth.GenerateOAuthCode` |
+| GET | `/api/oauth/github` | `/api/v1/public/oauth/github` | `CriticalRateLimit` | `auth.GitHubOAuth` |
+| GET | `/api/oauth/lark` | `/api/v1/public/oauth/lark` | `CriticalRateLimit` | `auth.LarkOAuth` |
+
 ### 用户自助
 | 方法 | 旧路径 | 新路径 | 权限/中间件 | Handler |
 | --- | --- | --- | --- | --- |

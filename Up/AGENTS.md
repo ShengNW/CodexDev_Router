@@ -27,7 +27,7 @@
 关键校验：
 - 日志需出现 `openPostgreSQL`
 - `curl http://127.0.0.1:3011/api/status` 返回 success:true
-- `curl -I https://llm.yeying.pub` 返回 200
+- `curl -I https://router.yeying.pub` 返回 200
 
 常见风险：
 - 忘记构建前端（web/build）
