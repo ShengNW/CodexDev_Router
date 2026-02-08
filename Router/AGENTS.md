@@ -4,6 +4,7 @@ Purpose: quick map of where routing, channel/provider selection, proxying, model
 For run/PG/Nginx handoff notes, see /root/code/router/router_new/AGENTS.md.
 For upstream Codex (CCH) connection details and CLI verification notes, see `cch.md`.
 For Responses (/v1/responses) test pass notes and parser compatibility, see `responce.md`.
+For /v1/responses 503 with chunked transfer (and the non-chunk fix), see `chunk.md`.
 
 ## Entry points and HTTP routing
 - Server bootstrap: /root/code/router/router_new/cmd/router/main.go -> /root/code/router/router_new/internal/app/app.go
